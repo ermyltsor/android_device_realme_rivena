@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020 The LineageOS Project
+# Copyright (C) 2025 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,4 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_bitra.mk
+    $(LOCAL_DIR)/lineage_rivena.mk
+
+COMMON_LUNCH_CHOICES := \
+    lineage_rivena-user \
+    lineage_rivena-userdebug \
+    lineage_rivena-eng

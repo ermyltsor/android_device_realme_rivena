@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020 The LineageOS Project
+# Copyright (C) 2025 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,10 +17,16 @@
 # Include the common OEM chipset BoardConfig.
 include device/realme/sm8250-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/realme/bitra
+DEVICE_PATH := device/realme/rivena
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := RE5473,RE879AL1,bitra
+TARGET_OTA_ASSERT_DEVICE := RE546F,rivena
+
+# Board-info
+TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
+
+# Display
+TARGET_SCREEN_DENSITY := 450
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml

@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020 The LineageOS Project
+# Copyright (C) 2025 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -18,47 +18,38 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Matrixx stuff.
+# Inherit some common CustomRom stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Matrixx internal properties
-TARGET_HAS_UDFPS := true
-TARGET_ENABLE_BLUR := true
-TARGET_EXCLUDES_AUDIOFX := true
-TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_SUPPORTS_GOOGLE_RECORDER := true
-TARGET_SUPPORTS_QUICK_TAP := true
-TARGET_SUPPORTS_CALL_RECORDING := true
-TARGET_INCLUDE_STOCK_ARCORE := true
-TARGET_INCLUDE_LIVE_WALLPAPERS := false
-
-# Enable extra UDFPS animations
-EXTRA_UDFPS_ANIMATIONS := true
+# Inherit from device
+$(call inherit-product, device/realme/rivena/device.mk)
 
 # Set Boot Animination Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Inherit from device
-$(call inherit-product, $(LOCAL_PATH)/device.mk)
+# Sakura stuff
+SAKURA_OFFICIAL := false
+SAKURA_MAINTAINER := ermyltsor
+SAKURA_BUILD_TYPE := gapps
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_bitra
-PRODUCT_DEVICE := bitra
+PRODUCT_NAME := lineage_rivena
+PRODUCT_DEVICE := rivena
 PRODUCT_BRAND := realme
-PRODUCT_MODEL := RMX3370
+PRODUCT_MODEL := RMX3366
 PRODUCT_MANUFACTURER := realme
 
-PRODUCT_SYSTEM_NAME := RMX3370
-PRODUCT_SYSTEM_DEVICE := RE879AL1
+PRODUCT_SYSTEM_NAME := RMX3366
+PRODUCT_SYSTEM_DEVICE := RE546F
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="RMX3370-user 13 TP1A.220905.001 1704335091796 release-keys" \
+    PRIVATE_BUILD_DESC="RMX3366-user 13 TP1A.220905.001 R.149e3f2-1-7dec2 release-keys" \
     TARGET_DEVICE=$(PRODUCT_SYSTEM_DEVICE) \
     TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
 
-BUILD_FINGERPRINT := realme/RMX3370/RE879AL1:13/TP1A.220905.001/R.159caed-9b84-9b83:user/release-keys
+BUILD_FINGERPRINT := realme/RMX3366/RE546F:13/TP1A.220905.001/R.149e3f2-1-7dec2:user/release-keys
 
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)

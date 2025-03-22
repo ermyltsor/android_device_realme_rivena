@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise, are
-## from realme GT Neo2 5G (RMX3370_13.1.0.600(EX01)).
+## from realme GT Exp. Master Edition (RMX3366_13.1.0.300(CN01)).
 
 # ACDB
 odm/etc/acdbdata/Bluetooth_cal.acdb
@@ -11,9 +11,9 @@ odm/etc/acdbdata/Headset_cal.acdb
 odm/etc/acdbdata/Speaker_cal.acdb
 
 # ADSP Modules
-odm/lib/rfsa/adsp/libarcsoft_hdrplus_hvx_skel_21619.so
-odm/lib/rfsa/adsp/libarcsoft_hdrplus_se_hvx_skel_21619.so
-odm/lib/rfsa/adsp/libarcsoft_portraitsn_hvx_skel_21619.so
+odm/lib/rfsa/adsp/libarcsoft_hdrplus_hvx_skel_21615.so
+odm/lib/rfsa/adsp/libarcsoft_hdrplus_se_hvx_skel_21615.so
+odm/lib/rfsa/adsp/libarcsoft_portraitsn_hvx_skel_21615.so
 
 # Audio libraries
 odm/lib/libstdc++.so
@@ -50,58 +50,46 @@ odm/etc/lvimfs_params/LVIMFS_Parameter_ID7_MIC_Interview.txt
 odm/etc/lvimfs_params/LVIMFS_Parameter_ID8_MIC_Unprocess.txt
 odm/etc/lvimfs_params/LVIMFS_Parameter_ID9_MIC_Voice.txt
 
-# Camera
-odm/etc/camera/config/camera_unit_config
-odm/etc/camera/config/camera_unit_feature_config.protobuf
-odm/etc/camera/config/hi846
-odm/etc/camera/config/imx471
-odm/etc/camera/config/ov02b
-odm/etc/camera/config/s5kgw1
-odm/etc/camera/CameraHWConfiguration.config
-odm/etc/camera/camera_engmode.xml
-odm/etc/camera/settings_fdc.txt
-odm/lib64/camera/com.qti.sensor.hi846.so
-odm/lib64/camera/com.qti.sensor.imx471.so
-odm/lib64/camera/com.qti.sensor.ov02b.so
-odm/lib64/camera/com.qti.sensor.s5kgw1.so
-odm/lib64/camera/com.qti.sensormodule.qtech_s5kgw1.bin
-odm/lib64/camera/com.qti.sensormodule.shine_ov02b.bin
-odm/lib64/camera/com.qti.sensormodule.truly_hi846.bin
-odm/lib64/camera/com.qti.sensormodule.truly_imx471_2169A.bin
-odm/lib64/camera/com.qti.sensormodule.truly_imx471.bin
-odm/lib64/camera/com.qti.tuned.sm8250_qtech_s5kgw1.bin
-odm/lib64/camera/com.qti.tuned.sm8250_shine_ov02b.bin
-odm/lib64/camera/com.qti.tuned.sm8250_truly_hi846.bin
-odm/lib64/camera/com.qti.tuned.sm8250_truly_imx471_2169A.bin
-odm/lib64/camera/com.qti.tuned.sm8250_truly_imx471.bin
-
 # Charger firmware
-odm/firmware/fastchg/136730/oplus_vooc_fw_rk826.bin
-odm/firmware/fastchg/136858/oplus_vooc_fw_rk826.bin
-odm/firmware/fastchg/136859/oplus_vooc_fw_rk826.bin
-odm/firmware/fastchg/21619/oplus_vooc_fw_rk826.bin
-
-# Display calibration data
-vendor/etc/qdcm_calib_data_samsung_ams662zs01_dsc_cmd_mode_panel.xml
-vendor/etc/qdcm_calib_data_samsung_ams662zs01_dvt_dsc_cmd_mode_panel.xml
-
-# Display eye protection data
-odm/etc/samsung1024_ams662zs01_eyeprotect_data.xml
-odm/etc/samsung1024_ana6706_cinema_eyeprotect_data.xml
-odm/etc/samsung1024_ana6706_colorful_eyeprotect_data.xml
-odm/etc/samsung1024_ana6706_eyeprotect_data.xml
-odm/etc/samsung1024_ana6706_srgb_eyeprotect_data.xml
+odm/firmware/fastchg/21615/oplus_vooc_fw_rk826.bin
 
 # Fingerprint firmware
-odm/vendor/firmware/ancap64.b00
-odm/vendor/firmware/ancap64.b01
-odm/vendor/firmware/ancap64.b02
-odm/vendor/firmware/ancap64.b03
-odm/vendor/firmware/ancap64.b04
-odm/vendor/firmware/ancap64.b05
-odm/vendor/firmware/ancap64.b06
-odm/vendor/firmware/ancap64.b07
-odm/vendor/firmware/ancap64.mdt
+odm/vendor/firmware/alipay.b00
+odm/vendor/firmware/alipay.b01
+odm/vendor/firmware/alipay.b02
+odm/vendor/firmware/alipay.b03
+odm/vendor/firmware/alipay.b04
+odm/vendor/firmware/alipay.b05
+odm/vendor/firmware/alipay.b06
+odm/vendor/firmware/alipay.b07
+odm/vendor/firmware/alipay.mdt
+odm/vendor/firmware/cryptoeng.b00
+odm/vendor/firmware/cryptoeng.b01
+odm/vendor/firmware/cryptoeng.b02
+odm/vendor/firmware/cryptoeng.b03
+odm/vendor/firmware/cryptoeng.b04
+odm/vendor/firmware/cryptoeng.b05
+odm/vendor/firmware/cryptoeng.b06
+odm/vendor/firmware/cryptoeng.b07
+odm/vendor/firmware/cryptoeng.mdt
+odm/vendor/firmware/facereg.b00
+odm/vendor/firmware/facereg.b01
+odm/vendor/firmware/facereg.b02
+odm/vendor/firmware/facereg.b03
+odm/vendor/firmware/facereg.b04
+odm/vendor/firmware/facereg.b05
+odm/vendor/firmware/facereg.b06
+odm/vendor/firmware/facereg.b07
+odm/vendor/firmware/facereg.mdt
+odm/vendor/firmware/fidotap.b00
+odm/vendor/firmware/fidotap.b01
+odm/vendor/firmware/fidotap.b02
+odm/vendor/firmware/fidotap.b03
+odm/vendor/firmware/fidotap.b04
+odm/vendor/firmware/fidotap.b05
+odm/vendor/firmware/fidotap.b06
+odm/vendor/firmware/fidotap.b07
+odm/vendor/firmware/fidotap.mdt
 odm/vendor/firmware/goodixfp.b00
 odm/vendor/firmware/goodixfp.b01
 odm/vendor/firmware/goodixfp.b02
@@ -123,7 +111,7 @@ vendor/firmware/image/opluseid.mdt
 
 # Graphics (Adreno firmware)
 vendor/firmware/a650_gmu.bin
-vendor/firmware/a650_sqe.fw|a011deb174929b874fb668d7c8041cfb712b6417
+vendor/firmware/a650_sqe.fw
 vendor/firmware/a650_zap.b00
 vendor/firmware/a650_zap.b01
 vendor/firmware/a650_zap.b02
@@ -158,9 +146,9 @@ odm/etc/sensor/config/kona_qrd_sx933x_0.json
 odm/etc/sensor/sensor_config.json
 
 # Touchscreen firmware
-odm/firmware/tp/21619/FW_S3908_SAMSUNG.img
-odm/firmware/tp/21619/FW_S3908_SAMSUNG_FAE.img
-odm/firmware/tp/21619/LIMIT_S3908_SAMSUNG.img
+odm/firmware/tp/21615/FW_S6SY792_SAMSUNG.bin
+odm/firmware/tp/21615/FW_S6SY792_SAMSUNG_FAE.bin
+odm/firmware/tp/21615/LIMIT_S6SY792_SAMSUNG.img
 
 # Wifi
 odm/etc/wifi/bdwlan.elf
