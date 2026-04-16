@@ -924,6 +924,13 @@ vendor/firmware/ipa_uc.mdt
 vendor/bin/hw/android.hardware.keymaster@4.1-service-qti
 vendor/etc/init/android.hardware.keymaster@4.1-service-qti.rc
 
+# NFC configs
+odm/etc/nfc/libnfc-mtp-SN100.conf_21615:vendor/etc/libnfc-nxp.conf
+odm/etc/nfc/libnfc-nci.conf_21615:vendor/etc/libnfc-nci.conf
+
+# NFC firmware
+odm/etc/nfc/sn100u.bin_sn100t_fw_01_10_57:vendor/firmware/sn100u.bin
+
 # Sensors
 odm/etc/sensor/config/kona_bu52053nvx_0.json
 odm/etc/sensor/config/kona_qrd_bmi26x_0.json
