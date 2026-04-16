@@ -9,6 +9,9 @@ include device/oppo/sm8250-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/realme/rivena
 
+# A/B
+AB_OTA_UPDATER := false
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := RE546F,rivena
 
