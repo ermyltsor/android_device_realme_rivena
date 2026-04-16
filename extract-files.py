@@ -10,7 +10,7 @@ from extract_utils.main import (
 )
 
 namespace_imports = [
-    'vendor/realme/sm8250-common',
+    'vendor/oppo/sm8250-common',
 ]
 
 module = ExtractUtilsModule(
@@ -21,6 +21,6 @@ module = ExtractUtilsModule(
 
 if __name__ == '__main__':
     utils = ExtractUtils.device_with_common(
-        module, 'sm8250-common', module.vendor
+        module, '../oppo/sm8250-common', module.vendor
     )
     utils.run()

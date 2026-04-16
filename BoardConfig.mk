@@ -5,7 +5,7 @@
 #
 
 # Include the common OEM chipset BoardConfig.
-include device/realme/sm8250-common/BoardConfigCommon.mk
+include device/oppo/sm8250-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/realme/rivena
 
