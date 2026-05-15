@@ -53,6 +53,7 @@ PRODUCT_PACKAGES += \
     crDroidFrameworksResTarget \
     crDroidSettingsLibResTarget \
     crDroidSystemUIResTarget \
+    crDroidUpdaterResTarget \
     OPlusFrameworksResTarget \
     OPlusSettingsProviderResTarget \
     OPlusSettingsResTarget \
