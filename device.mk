@@ -51,6 +51,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 PRODUCT_PACKAGES += \
     crDroidFrameworksResTarget \
+    crDroidSettingsLibResTarget \
     crDroidSystemUIResTarget \
     OPlusFrameworksResTarget \
     OPlusSettingsProviderResTarget \
